@@ -1,0 +1,220 @@
+#title {
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+  background-color: white;
+
+}
+
+li,a,button{
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+header{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 30px 10%;
+}
+
+nav{
+  order: 1;
+}
+
+p{
+  font-size: 1.1rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.logo_1{
+  cursor: pointer;
+  width: 60%;
+  border-radius: 60%;
+}
+
+.medic{
+  cursor: pointer;
+  margin-left: auto;
+}
+
+.container-fluid{
+    background-image:    url(images/12.jpg);
+    background-size: cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+    height: 900px;
+}
+
+.nav_link{
+  list-style: none;
+}
+
+.nav_link li{
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav_link li:nth-child(1){
+  padding: 0 20px 0 0;
+}
+
+.nav_link li a:hover{
+  transition: all 0.3s ease 0s;
+}
+
+.cta{
+  order: 2;
+}
+
+button{
+  margin-left: 17px;
+  padding: 10px 15px;
+  background-color: rgba(0,136,169,1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+
+button:hover{
+  background-color: rgbe(0,136,169,0)
+}
+
+
+.docs{
+  text-align: center;
+  color: white;
+  margin-top: 13%;
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+
+#overview{
+align-items: center;
+}
+
+.row{
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+}
+
+.white-section{
+  background-color: white;
+}
+
+.about{
+  padding: 7% 15%;
+  margin-top: 10%;
+  color: black;
+  text-align: left;
+  background-color: #48cae4;
+}
+
+
+#review{
+  padding: 7% 15%;
+  text-align: center;
+  font-size: 4rem;
+  background-color: #8eecf5;
+}
+
+
+.boy{
+  width: 10%;
+  border-radius: 80%;
+  margin-left: 20px;
+  align-items: center;
+}
+
+
+#cta2s{
+  text-align: center;
+  background-color: #98f5e1;
+  padding: 8% 8%;
+}
+
+.Download-button{
+  margin: 2% 2%;
+}
+
+
+.pics{
+  width: 50%;
+  border-radius: 80%;
+  margin-left: 20px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.card:nth-of-type(1){
+  flex-basis: 90%;
+}
+
+.lorem{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10%;
+}
+
+.contact_us{
+  text-align: center;
+  margin: 7% 7%;
+}
+
+
+#footer{
+  padding: 5% 0 5% 0;
+  text-align: center;
+}
+
+
+.socail-icon{
+  margin: 20px 10px;
+}
+
+
+.bmi{
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 10%;
+}
+
+.medic{
+  font-size: 3rem;
+  color: white;
+  font-weight: bold;
+
+}
+
+
+.bmi_link{
+  /* background-color: #b9fbc0; */
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  color: black;
+  font-size: 3rem;
+  font-weight: 500px;
+}
+
+
+#footer{
+  padding-bottom: 10%;
+  padding-top: 2%;
+}
+
+.socail-icon{
+  color: black;
+}

@@ -1,0 +1,39 @@
+#title {
+  background-color: #dc143c;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+  background-color: #8eecf5;
+  font-size: 2rem;
+}
+
+h1,p{
+  text-align: center;
+}
+
+.main{
+  text-align: center;
+}
+
+.heading{
+  margin-top: 5%;
+}
+
+.input{
+  padding: 10px 10px;
+}
+
+.card-footer{
+  text-align: center;
+}
+
+.container{
+  margin-top: 7%;
+}
+
+.check{
+  margin: auto;
+  text-align: center;
+}
