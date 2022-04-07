@@ -16,6 +16,12 @@ li,a,button{
   text-decoration: none;
 }
 
+
+h1{
+  font-size: 3.2rem;
+}
+
+
 header{
   display: flex;
   justify-content: flex-end;
@@ -138,7 +144,7 @@ align-items: center;
 
 #cta2s{
   text-align: center;
-  background-color: #98f5e1;
+  background-color: #caf0f8;
   padding: 8% 8%;
 }
 
