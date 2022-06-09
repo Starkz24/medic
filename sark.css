@@ -224,3 +224,7 @@ align-items: center;
 .socail-icon{
   color: black;
 }
+
+.nav-item active{
+  font-size: 3rem;
+}
